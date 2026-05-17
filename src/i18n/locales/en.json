@@ -1,0 +1,86 @@
+{
+  "common": {
+    "continue": "Continue",
+    "next": "Next",
+    "back": "Back",
+    "save_draft": "Save Draft",
+    "finish": "Finish",
+    "logout": "Logout",
+    "edit": "Edit",
+    "draft_saved": "Draft saved",
+    "loading": "Loading..."
+  },
+  "phone": {
+    "title": "Phone number confirmation",
+    "subtitle": "Enter your phone number to receive an SMS with a code",
+    "placeholder": "+7 (___) ___-__-__",
+    "label": "Phone number",
+    "send_code": "Send code"
+  },
+  "role": {
+    "title": "Choose your role",
+    "subtitle": "How do you want to register?",
+    "customer": "As a Customer",
+    "carrier": "As a Carrier",
+    "customer_desc": "Post requests and find carriers",
+    "carrier_desc": "Accept orders and transport cargo"
+  },
+  "otp": {
+    "title": "Phone number confirmation",
+    "subtitle": "Enter the code from SMS sent to {{phone}}",
+    "invalid_code": "Code is incorrect or expired",
+    "resend": "Resend code",
+    "timer": "Resend code  in  {{sec}}"
+  },
+  "registration": {
+    "title": "Registration",
+    "draft_hint": "You have an unfinished draft",
+    "fields": {
+      "full_name": "Full Name",
+      "birth_date": "Date of Birth",
+      "citizenship": "Citizenship",
+      "phone": "Phone",
+      "iin": "IIN",
+      "doc_series": "Document Series / Number",
+      "doc_issue_date": "Issue Date",
+      "doc_issued_by": "Issued By",
+      "driver_license": "Driver License Number",
+      "driver_category": "Category",
+      "driver_license_date": "Driver License Issue Date"
+    },
+    "citizenship_options": {
+      "kz": "Kazakhstan",
+      "ru": "Russia",
+      "by": "Belarus",
+      "other": "Other"
+    },
+    "errors": {
+      "required": "Required field",
+      "full_name_min": "Enter your full name",
+      "iin_invalid": "Invalid IIN",
+      "birth_date_future": "Date of birth cannot be in the future",
+      "birth_date_min_age": "You must be at least 18 years old",
+      "birth_date_max_age": "Age cannot exceed 65 years",
+      "doc_issue_date_future": "Issue date cannot be in the future"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "role_customer": "Customer",
+    "role_carrier": "Carrier",
+    "fields": {
+      "full_name": "Full Name",
+      "birth_date": "Date of Birth",
+      "citizenship": "Citizenship",
+      "phone": "Phone",
+      "iin": "IIN",
+      "doc_series": "Document Series / Number",
+      "doc_issue_date": "Issue Date",
+      "doc_issued_by": "Issued By",
+      "driver_license": "Driver License No.",
+      "driver_category": "Category",
+      "driver_license_date": "Driver License Issue Date",
+      "role": "Role"
+    }
+  }
+}
